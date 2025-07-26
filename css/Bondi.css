@@ -1,0 +1,200 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-btn {
+  background-color: #198754;
+  color: #ffc400;
+  padding: 0.5rem 1rem;
+}
+.main-btn:hover {
+  background-color: rgb(32.96875, 178.03125, 110.775);
+  color: rgb(255, 207.8, 51);
+}
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 4px;
+  background-color: #33d1cc;
+}
+
+.navbar {
+  background-color: #19283f;
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #33d1cc;
+}
+.navbar .navbar-nav .nav-link.active {
+  color: #33d1cc;
+}
+.navbar .navbar-nav .nav-link:focus {
+  color: #33d1cc;
+}
+.navbar .search {
+  border-left: 1px solid #33d1cc;
+}
+.navbar .search svg {
+  color: #33d1cc;
+}
+.navbar .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+  font-size: 25px;
+}
+
+.landing {
+  background-color: #19283f;
+  min-height: calc(100vh - 72px);
+}
+
+.features .icon-holder {
+  height: 200px;
+}
+.features .icon-holder svg {
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.features .icon-holder svg.number {
+  font-size: 12rem;
+  color: #eff7fa;
+}
+.features .icon-holder svg.icon {
+  color: #33d1cc;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.features .feat h4 {
+  color: #ffc400;
+}
+
+.our-work {
+  background-color: #eff7fa;
+}
+.our-work ul .active {
+  background-color: rgb(32.96875, 178.03125, 110.775);
+  color: rgb(255, 207.8, 51);
+}
+.our-work ul li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+.our-work ul li:not(.active):hover {
+  color: rgb(32.96875, 178.03125, 110.775);
+}
+.our-work .box {
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.our-work .box::before {
+  content: attr(data-work);
+  position: absolute;
+  background-color: rgba(25, 40, 63, 0.4);
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transform: translateX(calc(-100% - 5px));
+  -webkit-transform: translateX(calc(-100% - 5px));
+  -moz-transform: translateX(calc(-100% - 5px));
+  -ms-transform: translateX(calc(-100% - 5px));
+  -o-transform: translateX(calc(-100% - 5px));
+}
+.our-work .box:hover::before {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+
+.stuff .description {
+  max-width: 500px;
+}
+
+.team {
+  background-color: #eff7fa;
+}
+.team h2 {
+  color: #ffc400;
+}
+.team .box h4 {
+  background-color: #33d1cc;
+}
+
+.project {
+  background-color: #19283f;
+}
+
+.subscribe {
+  background-color: #ffc400;
+}
+.subscribe input[type=email] {
+  border: none;
+  border-bottom: 1px solid #ffffff;
+}
+.subscribe input[type=email]:focus {
+  outline: none;
+}
+.subscribe input[type=email]::-moz-placeholder {
+  color: #ffffff;
+}
+.subscribe input[type=email]::placeholder {
+  color: #ffffff;
+}
+.subscribe input[type=submit] {
+  background-color: #19283f;
+  color: #ffc400;
+}
+
+footer {
+  background-color: #19283f;
+}
+footer .copy-right p:first-child span {
+  color: #33d1cc;
+}
+footer .copy-right p:last-child span {
+  color: #ffc400;
+}
+footer .contact ul svg {
+  width: 20px;
+  height: 20px;
+}
+footer .facebook {
+  background-color: #1877fa;
+}
+footer .twitter {
+  background-color: #1da1f2;
+}
+footer .linkedin {
+  background-color: #0077b5;
+}
+footer .youtube {
+  background-color: #f00;
+}/*# sourceMappingURL=Bondi.css.map */
